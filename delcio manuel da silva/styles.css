@@ -1,0 +1,176 @@
+*
+.search-bar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-input {
+    width: 80%; /* Ajusta a largura do campo de pesquisa */
+    padding: 10px; /* Adiciona preenchimento ao campo de pesquisa */
+    border: 2px solid #000066; /* Adiciona borda ao campo de pesquisa */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao campo de pesquisa */
+    margin-right: 1px; /* Adiciona um espaço entre o campo de pesquisa e o botão de busca */
+}
+
+.search-button {
+    background-color: rgb(20, 45, 126); /* Cor de fundo do botão de busca */
+    color: #fff; /* Cor do texto do botão de busca */
+    padding: 10px 20px; /* Adiciona preenchimento ao botão de busca */
+    border: 2px solid #05056e; /* Adiciona borda ao botão de busca */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão de busca */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Efeito de transição suave para a transformação */
+}
+
+.search-button:hover {
+    background-color: #080881; /* Cor do botão ao passar o mouse */
+    border-color: #05056e;; /* Cor da borda ao passar o mouse */
+    transform: translateX(8px); /* Move o botão 5 pixels para a direita */
+}
+body {
+    background-color: #000000; /* Cor de fundo escura (branco) */
+    color: #fff; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000066; /* Cor de fundo do cabeçalho (azul muito escuro) */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilos para links */
+a {
+    color: #3498db; /* Cor do link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para botões */
+.button {
+    display: inline-block;
+    background-color: #000066; /* Cor do botão */
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #000066; /* Adiciona uma borda ao botão */
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave */
+}
+
+
+
+/* Estilos para os botões de categorias */
+.categorias a {
+    display: inline-block;
+    margin: 3px;
+    padding: 8px 16px;
+    background-color: #000066; /* Cor de fundo dos botões */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave */
+}
+
+.categorias a:hover {
+    background-color: #080881; /* Cor do botão ao passar o mouse */
+    border-color: #2577b5; /* Cor da borda ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra leve ao passar o mouse */
+}
+
+/* Estilo para os filmes na grade */
+.filme {
+    display: inline-block;
+    margin: -1; /* Ajuste o valor conforme necessário para definir a distância desejada */
+    text-align: center;
+    vertical-align: top; /* Alinha as imagens ao topo */
+    width: 200px; /* Defina a largura desejada para as imagens */
+    position: relative; /* Adiciona uma posição relativa para manipular a transformação */
+    transition: transform 0.3s ease; /* Efeito de transição suave para a transformação */
+}
+
+
+
+/* Efeito de elevação nas imagens quando o cursor está sobre elas */
+.filme:hover {
+    transform: translateY(-5px); /* Move a imagem 5 pixels para cima */
+}
+
+.filme img {
+    width: 150px; /*  largura desejada para todas as imagens */
+    height: 250px; /* altura desejada para todas as imagens */
+    object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
+    border-radius: 20px;
+    border: 5px solid #000000; 
+}
+
+
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #000066; /* Cor de fundo do rodapé (azul muito escuro) */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0;
+}
+
+.rodape p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.rodape a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Estilos para o link "Voltar para o Topo" */
+.voltar-ao-topo {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.voltar-ao-topo:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
